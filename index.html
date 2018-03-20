@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>title</title>
+	<meta name="description" content="">
+	<meta name="author" content="Martijn Groeneveldt">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+		body {
+			background-color:#010101;
+			text-align: center;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		
+		div {
+			margin: auto;
+		}
+		
+		#gamecanvas {
+			border: 1px solid #FFF;
+			width: 900px;
+			height: 500px;
+		}
+	</style>
+	<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div>
+		<h1 id="header">SPACE RAIDER</h1>
+		<canvas id="gamecanvas" width="900" height="500">
+			If you see this, please upgrade to a browser with canvas support.
+		</canvas>
+	</div>
+	<script src="js/scripts.js"></script>
+	<script src="js/game.js"></script>
+	
+</body>
+
+</html>
