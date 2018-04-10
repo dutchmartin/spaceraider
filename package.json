@@ -1,0 +1,16 @@
+{
+  "name": "spaceraider",
+  "version": "1.0.0",
+  "description": "A js Game",
+  "main": "index.html",
+  "repository": "git@github.com:dutchmartin/spaceraider.git",
+  "author": "martijn Groeneveldt <martijn.groeneveldt@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "keycode": "^2.2.0"
+  }
+}

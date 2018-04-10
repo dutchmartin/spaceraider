@@ -1,5 +1,5 @@
 // by martijn groeneveldt
-config = {
+const config = {
 	height: 500,
 	width: 900,
 	fps: 60,
@@ -10,16 +10,16 @@ config = {
 	bulletlength: 10,
 	shots: 0,
 };
-var player = {
+const player = {
 	speed: 5,
 	size: 48,
 	x: config.width / 2,
 	y: config.height / 2
 };
-var bullets = {
+const bullets = {
 	count: 0,
 };
-var enemeys = {
+const enemeys = {
 	count: 2,
 	state: 1,
 	skip: 3,
@@ -27,13 +27,13 @@ var enemeys = {
 	x: 1,
 	y: 1,
 };
-var sprite = new Image();
+const sprite = new Image();
 sprite.src = "img/spritesheet.png";
 window.onload = init();
 
 function init() {
-	ctx = document.getElementById("gamecanvas").getContext("2d");
-	refresh = setInterval(update, Math.round(1000 / config.fps));
+	let ctx = document.getElementById("gamecanvas").getContext("2d");
+	let refresh = setInterval(update, Math.round(1000 / config.fps));
 	createstars();
 	leftkey = 0;
 	rightkey = 0;
