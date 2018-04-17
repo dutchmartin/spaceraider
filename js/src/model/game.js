@@ -1,4 +1,11 @@
-// by martijn groeneveldt
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Renderer = Renderer();
+var Game = /** @class */ (function () {
+    function Game() {
+    }
+    return Game;
+}());
 var config = {
     height: 500,
     width: 900,

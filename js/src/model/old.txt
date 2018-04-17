@@ -1,4 +1,13 @@
-// by martijn groeneveldt
+// by Martijn Groeneveldt
+/// <reference path="../references.ts" />
+export {};
+class Renderer{}
+const renderer = new Renderer();
+// class Game {
+// 	constructor(){
+//
+// 	}
+// }
 const config = {
 	height: 500,
 	width: 900,
